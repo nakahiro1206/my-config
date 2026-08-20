@@ -6,7 +6,7 @@ return {
 	initial_rows = 40,
 	initial_cols = 100,
 
-	color_scheme = "Github Light (Gogh)",
+	color_scheme = "Google Light (base16)",
 
 	-- Font settings
 	font = wezterm.font_with_fallback({
