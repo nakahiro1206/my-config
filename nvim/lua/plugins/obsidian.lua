@@ -21,11 +21,7 @@ return {
     workspaces = {
       {
         name = "global",
-        path = "~/Documents/vault/",
-      },
-      {
-        name = "reading",
-        path = "~/Documents/Obsidian Vault/",
+        path = "~/Documents/academic-reading/",
       },
       {
         name = "personal",

@@ -1,0 +1,16 @@
+gui:
+  theme:
+    activeBorderColor:
+      - green
+      - bold
+  showIcons: true
+git:
+  diffRenderers:
+    - colorArg: always
+      command: delta --light --paging=never
+  commit:
+    signOff: false
+keybinding:
+  universal:
+    quit: 'q'
+    return: '<esc>'
