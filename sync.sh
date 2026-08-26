@@ -4,5 +4,5 @@ cfg_path="$HOME/.config"
 # copy the config files to here
 dist="./"
 for dir in "${dirs[@]}"; do
-  cp -r "$cfg_path/$dir" "$dist"
+  rsync -a --delete --exclude='.git' "$cfg_path/$dir/" "$dist/$dir/"
 done
