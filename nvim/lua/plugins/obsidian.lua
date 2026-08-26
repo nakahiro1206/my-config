@@ -20,10 +20,6 @@ return {
   opts = {
     workspaces = {
       {
-        name = "global",
-        path = "~/Documents/academic-reading/",
-      },
-      {
         name = "personal",
         path = "~/vaults/personal",
       },
