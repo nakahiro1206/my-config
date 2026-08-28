@@ -1,5 +1,4 @@
 **/.DS_Store
 tmux/plugins/catppuccin/*
 
-herdr/
-!herdr/config.toml
+herdr/herdr*

@@ -1,0 +1,14 @@
+onboarding = false
+
+[theme]
+name = "catppuccin"
+auto_switch = true
+light_name = "catppuccin-latte"
+dark_name = "catppuccin"
+
+
+[[keys.command]]
+key = "prefix+i"
+type = "plugin_action"
+command = "flock.farm.open"
+description = "Open Flock Farm"
