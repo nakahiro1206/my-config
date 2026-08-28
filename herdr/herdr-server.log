@@ -1,0 +1,1217 @@
+2026-08-26T00:25:35.252618Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-08-26T00:25:35.253112Z  INFO herdr::api::server: api server listening path=/Users/hiroki.nakano/.config/herdr/herdr.sock
+2026-08-26T00:25:35.254277Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-26T00:25:35.275605Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T00:25:35.279765Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-08-26T00:25:35.282065Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=12577
+2026-08-26T00:25:35.282484Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-08-26T00:25:35.282507Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-26T00:25:35.282536Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-26T00:25:35.282574Z  INFO herdr::server::headless: created startup workspace cwd=/Users/hiroki.nakano/Developer/FY2026_Intern_HirokiNakano/analysis
+2026-08-26T00:25:35.282685Z  INFO herdr::server::headless: client protocol socket listening path=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-26T00:25:35.282724Z  INFO herdr::server::headless: herdr server started api_socket=/Users/hiroki.nakano/.config/herdr/herdr.sock client_socket=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-26T00:25:35.282995Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=12548
+2026-08-26T00:25:35.317201Z  INFO herdr::server::headless: client connected client_id=2 cols=200 rows=65 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-26T00:25:40.286450Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:26:32.160866Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(12803)
+2026-08-26T00:26:37.298881Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(12577)
+2026-08-26T00:26:38.816309Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-08-26T00:26:38.816592Z  INFO herdr::pane: pane session terminated pane=1 pid=12577 signal=Hangup
+2026-08-26T00:26:38.816911Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=64 cols=174 scrollback_limit_bytes=10000000
+2026-08-26T00:26:38.822794Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=12833
+2026-08-26T00:26:38.823324Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-08-26T00:26:38.823372Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-26T00:26:38.823417Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-26T00:26:41.361505Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-08-26T00:26:41.361770Z  INFO herdr::pane: pane session terminated pane=2 pid=12833 signal=Hangup
+2026-08-26T00:26:41.362010Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=64 cols=174 scrollback_limit_bytes=10000000
+2026-08-26T00:26:41.367685Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=12845
+2026-08-26T00:26:41.368171Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=3
+2026-08-26T00:26:41.368203Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-08-26T00:26:41.368232Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-08-26T00:26:42.970082Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-08-26T00:26:42.970332Z  INFO herdr::pane: pane session terminated pane=3 pid=12845 signal=Hangup
+2026-08-26T00:26:42.970560Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=64 cols=174 scrollback_limit_bytes=10000000
+2026-08-26T00:26:42.976130Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=12857
+2026-08-26T00:26:42.976520Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w4" pane_id=4
+2026-08-26T00:26:42.976543Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-08-26T00:26:42.976572Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-08-26T00:26:44.326708Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-08-26T00:26:44.326885Z  INFO herdr::pane: pane session terminated pane=4 pid=12857 signal=Hangup
+2026-08-26T00:26:44.327038Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=64 cols=174 scrollback_limit_bytes=10000000
+2026-08-26T00:26:44.330502Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=12869
+2026-08-26T00:26:44.330705Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w5" pane_id=5
+2026-08-26T00:26:44.330715Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-08-26T00:26:44.330737Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-08-26T00:26:49.345417Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:26:49.957164Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-08-26T00:26:54.960695Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:26:58.108060Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 130, signal: None }"
+2026-08-26T00:26:58.108367Z  INFO herdr::pane: pane session terminated pane=5 pid=12869 signal=Hangup
+2026-08-26T00:26:58.108587Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=64 cols=174 scrollback_limit_bytes=10000000
+2026-08-26T00:26:58.113941Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=12893
+2026-08-26T00:26:58.114263Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w6" pane_id=6
+2026-08-26T00:26:58.114285Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-08-26T00:26:58.114307Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-08-26T00:26:59.357191Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-08-26T00:27:04.360330Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:27:15.993727Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-26T00:27:16.048864Z  INFO herdr::server::headless: completing server shutdown
+2026-08-26T00:27:16.104565Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:27:16.104582Z  INFO herdr::server::headless: headless server exiting
+2026-08-26T00:27:16.105418Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: None }"
+2026-08-26T00:27:16.129854Z  INFO herdr::pane: pane session terminated pane=6 pid=12893 signal=Hangup
+2026-08-26T00:27:16.130327Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=12548
+2026-08-26T00:54:24.252772Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-08-26T00:54:24.253315Z  INFO herdr::api::server: api server listening path=/Users/hiroki.nakano/.config/herdr/herdr.sock
+2026-08-26T00:54:24.259482Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-26T00:54:24.263629Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=13752
+2026-08-26T00:54:24.263865Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-26T00:54:24.263919Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-26T00:54:24.293468Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T00:54:24.296785Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/hiroki.nakano
+2026-08-26T00:54:24.297037Z  INFO herdr::server::headless: client protocol socket listening path=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-26T00:54:24.297072Z  INFO herdr::server::headless: herdr server started api_socket=/Users/hiroki.nakano/.config/herdr/herdr.sock client_socket=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-26T00:54:24.298341Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=13751
+2026-08-26T00:54:24.302386Z  INFO herdr::server::headless: client connected client_id=2 cols=168 rows=60 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-26T00:54:24.640877Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-26T00:54:24.641527Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-26T00:54:47.923116Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="claude"
+2026-08-26T00:54:52.928096Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:55:02.921337Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-26T00:55:02.976348Z  INFO herdr::server::headless: completing server shutdown
+2026-08-26T00:55:03.033558Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:55:03.033615Z  INFO herdr::server::headless: headless server exiting
+2026-08-26T00:55:03.035406Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: None }"
+2026-08-26T00:55:03.059173Z  INFO herdr::pane: pane session terminated pane=1 pid=13752 signal=Hangup
+2026-08-26T00:55:03.060075Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=13751
+2026-08-26T00:55:26.627278Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-08-26T00:55:26.627895Z  INFO herdr::api::server: api server listening path=/Users/hiroki.nakano/.config/herdr/herdr.sock
+2026-08-26T00:55:26.628757Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-26T00:55:26.633110Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=13961
+2026-08-26T00:55:26.633363Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-26T00:55:26.633388Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-26T00:55:26.658030Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-26T00:55:26.660852Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/hiroki.nakano/Developer/FY2026_Intern_HirokiNakano/submission
+2026-08-26T00:55:26.660967Z  INFO herdr::server::headless: client protocol socket listening path=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-26T00:55:26.660982Z  INFO herdr::server::headless: herdr server started api_socket=/Users/hiroki.nakano/.config/herdr/herdr.sock client_socket=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-26T00:55:26.661197Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=13960
+2026-08-26T00:55:26.667655Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-26T00:55:26.667991Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=25 cols=44 scrollback_limit_bytes=10000000
+2026-08-26T00:55:26.669651Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=14001
+2026-08-26T00:55:26.669799Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-26T00:55:26.679873Z  INFO herdr::server::headless: client connected client_id=2 cols=168 rows=60 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-26T00:55:26.995257Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 2, signal: None }"
+2026-08-26T00:55:26.996141Z  INFO herdr::pane: pane session terminated pane=2 pid=14001 signal=Hangup
+2026-08-26T00:55:33.217814Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(14151)
+2026-08-26T00:55:39.576511Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(13961)
+2026-08-26T00:55:52.146448Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(14201)
+2026-08-26T00:55:57.333234Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T00:58:38.382741Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-08-26T00:58:38.383779Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-08-26T00:58:46.033853Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T01:02:32.796950Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-26T01:12:02.374122Z  INFO herdr::server::headless: client resize client_id=2 cols=168 rows=61 cell_width_px=0 cell_height_px=0
+2026-08-26T01:12:04.554835Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(13961)
+2026-08-26T01:12:05.545827Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-08-26T01:12:05.546412Z  INFO herdr::pane: pane session terminated pane=1 pid=13961 signal=Hangup
+2026-08-26T01:12:05.546761Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=60 cols=164 scrollback_limit_bytes=10000000
+2026-08-26T01:12:05.551450Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=15155
+2026-08-26T01:12:05.551796Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w7" pane_id=3
+2026-08-26T01:12:05.551816Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-08-26T01:12:05.551824Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-08-26T01:12:10.562748Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T01:12:12.941251Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-26T01:12:12.996352Z  INFO herdr::server::headless: completing server shutdown
+2026-08-26T01:12:13.052106Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-26T01:12:13.052129Z  INFO herdr::server::headless: headless server exiting
+2026-08-26T01:12:13.052988Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: None }"
+2026-08-26T01:12:13.077472Z  INFO herdr::pane: pane session terminated pane=3 pid=15155 signal=Hangup
+2026-08-26T01:12:13.077954Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=13960
+2026-08-27T03:06:24.121190Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-08-27T03:06:24.122073Z  INFO herdr::api::server: api server listening path=/Users/hiroki.nakano/.config/herdr/herdr.sock
+2026-08-27T03:06:24.128272Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-27T03:06:24.132154Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=13097
+2026-08-27T03:06:24.132322Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-27T03:06:24.132906Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-27T03:06:24.161314Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T03:06:24.165832Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/hiroki.nakano/Developer/FY2026_Intern_HirokiNakano/submission
+2026-08-27T03:06:24.166060Z  INFO herdr::server::headless: client protocol socket listening path=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-27T03:06:24.166107Z  INFO herdr::server::headless: herdr server started api_socket=/Users/hiroki.nakano/.config/herdr/herdr.sock client_socket=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-27T03:06:24.167797Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=13096
+2026-08-27T03:06:24.179485Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T03:06:24.179862Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=25 cols=44 scrollback_limit_bytes=10000000
+2026-08-27T03:06:24.181456Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=13139
+2026-08-27T03:06:24.181738Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T03:06:24.193144Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 2, signal: None }"
+2026-08-27T03:06:24.193170Z  INFO herdr::pane: pane session terminated pane=2 pid=13139 signal=Hangup
+2026-08-27T03:06:24.455547Z  INFO herdr::server::headless: client connected client_id=2 cols=157 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-27T03:07:39.563100Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-27T03:07:39.614478Z  INFO herdr::server::headless: completing server shutdown
+2026-08-27T03:07:39.668433Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:07:39.668445Z  INFO herdr::server::headless: headless server exiting
+2026-08-27T03:07:39.669047Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: None }"
+2026-08-27T03:07:39.693619Z  INFO herdr::pane: pane session terminated pane=1 pid=13097 signal=Hangup
+2026-08-27T03:07:39.694192Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=13096
+2026-08-27T03:07:41.046503Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-08-27T03:07:41.047045Z  INFO herdr::api::server: api server listening path=/Users/hiroki.nakano/.config/herdr/herdr.sock
+2026-08-27T03:07:41.047620Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-27T03:07:41.049881Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=13833
+2026-08-27T03:07:41.050100Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-27T03:07:41.050118Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-27T03:07:41.083096Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T03:07:41.086327Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/hiroki.nakano/Developer/FY2026_Intern_HirokiNakano/submission
+2026-08-27T03:07:41.086444Z  INFO herdr::server::headless: client protocol socket listening path=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-27T03:07:41.086460Z  INFO herdr::server::headless: herdr server started api_socket=/Users/hiroki.nakano/.config/herdr/herdr.sock client_socket=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-27T03:07:41.086616Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=13832
+2026-08-27T03:07:41.093232Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T03:07:41.093618Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=25 cols=44 scrollback_limit_bytes=10000000
+2026-08-27T03:07:41.095233Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=13873
+2026-08-27T03:07:41.095340Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T03:07:41.095550Z  INFO herdr::server::headless: client connected client_id=2 cols=157 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-27T03:07:41.104179Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 2, signal: None }"
+2026-08-27T03:07:41.105144Z  INFO herdr::pane: pane session terminated pane=2 pid=13873 signal=Hangup
+2026-08-27T03:08:04.732269Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(14511)
+2026-08-27T03:08:10.060793Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:08:18.895605Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:09:21.435873Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(13833)
+2026-08-27T03:09:22.372148Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T03:09:22.372830Z  INFO herdr::pane: pane session terminated pane=1 pid=13833 signal=Hangup
+2026-08-27T03:09:22.373140Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=63 cols=132 scrollback_limit_bytes=10000000
+2026-08-27T03:09:22.378253Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=14578
+2026-08-27T03:09:22.378711Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w8" pane_id=3
+2026-08-27T03:09:22.378742Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-08-27T03:09:22.378773Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:09:27.389995Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:09:54.816305Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-27T03:09:54.872356Z  INFO herdr::server::headless: completing server shutdown
+2026-08-27T03:09:54.928034Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:09:54.928054Z  INFO herdr::server::headless: headless server exiting
+2026-08-27T03:09:54.928843Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: None }"
+2026-08-27T03:09:54.953340Z  INFO herdr::pane: pane session terminated pane=3 pid=14578 signal=Hangup
+2026-08-27T03:09:54.953824Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=13832
+2026-08-27T03:09:56.056240Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-08-27T03:09:56.056998Z  INFO herdr::api::server: api server listening path=/Users/hiroki.nakano/.config/herdr/herdr.sock
+2026-08-27T03:09:56.057860Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-27T03:09:56.061757Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=15900
+2026-08-27T03:09:56.062012Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-27T03:09:56.062031Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-27T03:09:56.092393Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T03:09:56.096005Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/hiroki.nakano/Developer/FY2026_Intern_HirokiNakano/submission
+2026-08-27T03:09:56.096119Z  INFO herdr::server::headless: client protocol socket listening path=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-27T03:09:56.096134Z  INFO herdr::server::headless: herdr server started api_socket=/Users/hiroki.nakano/.config/herdr/herdr.sock client_socket=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-27T03:09:56.096309Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=15899
+2026-08-27T03:09:56.102353Z  INFO herdr::server::headless: client connected client_id=2 cols=157 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-27T03:09:56.102648Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T03:09:56.103027Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=42 cols=63 scrollback_limit_bytes=10000000
+2026-08-27T03:09:56.104593Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=15941
+2026-08-27T03:09:56.104740Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T03:09:56.113182Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 2, signal: None }"
+2026-08-27T03:09:56.114189Z  INFO herdr::pane: pane session terminated pane=2 pid=15941 signal=Hangup
+2026-08-27T03:09:58.073016Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T03:09:58.073899Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=63 cols=132 scrollback_limit_bytes=10000000
+2026-08-27T03:09:58.077625Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=16096
+2026-08-27T03:09:58.077859Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:09:58.078750Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T03:10:00.924182Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:10:05.930260Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:10:14.700643Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(16115)
+2026-08-27T03:10:19.648952Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:10:22.615237Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:10:27.621491Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:10:34.322208Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:10:38.937667Z  INFO herdr::server::headless: client resize client_id=2 cols=124 rows=58 cell_width_px=0 cell_height_px=0
+2026-08-27T03:10:39.329226Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:10:40.606710Z  INFO herdr::server::headless: client resize client_id=2 cols=154 rows=62 cell_width_px=0 cell_height_px=0
+2026-08-27T03:22:42.921136Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:22:44.259597Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:22:45.708526Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:22:49.459954Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:22:54.465315Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:39:56.093392Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T03:47:26.615372Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(15900)
+2026-08-27T03:47:29.526047Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:47:31.176364Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:47:36.182807Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:47:41.466791Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T03:47:41.467269Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=61 cols=65 scrollback_limit_bytes=10000000
+2026-08-27T03:47:41.470024Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=17334
+2026-08-27T03:47:41.470173Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:47:41.470531Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T03:47:46.474484Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:47:50.108646Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:47:50.670261Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:47:51.172553Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:47:56.178159Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:48:00.863232Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T03:48:00.863980Z  INFO herdr::pane: pane session terminated pane=3 pid=16096 signal=Hangup
+2026-08-27T03:48:03.351320Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T03:48:03.352323Z  INFO herdr::pane: pane session terminated pane=4 pid=17334 signal=Hangup
+2026-08-27T03:48:05.171523Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T03:48:05.172217Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=61 cols=129 scrollback_limit_bytes=10000000
+2026-08-27T03:48:05.175656Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=17349
+2026-08-27T03:48:05.175890Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:48:05.176299Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T03:48:10.179960Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:48:11.031250Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T03:48:11.032319Z  INFO herdr::pane: pane session terminated pane=5 pid=17349 signal=Hangup
+2026-08-27T03:48:13.692180Z  INFO herdr::server::headless: client resize client_id=2 cols=186 rows=71 cell_width_px=0 cell_height_px=0
+2026-08-27T03:48:16.035900Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:48:16.493437Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-08-27T03:48:16.493573Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:48:20.303964Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=70 cols=161 scrollback_limit_bytes=10000000
+2026-08-27T03:48:20.309383Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=17352
+2026-08-27T03:48:20.309938Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w9" pane_id=6
+2026-08-27T03:48:20.309955Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-08-27T03:48:20.309991Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-08-27T03:48:25.316023Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-27T03:48:27.488718Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-08-27T03:48:27.488846Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:48:28.614198Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-08-27T03:48:28.614338Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-08-27T03:48:30.699637Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T03:48:30.700349Z  INFO herdr::pane: pane session terminated pane=6 pid=17352 signal=Hangup
+2026-08-27T03:48:35.703338Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T03:48:38.304350Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=70 cols=161 scrollback_limit_bytes=10000000
+2026-08-27T03:48:38.310227Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=17372
+2026-08-27T03:48:38.310546Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-08-27T03:48:38.310602Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-08-27T03:48:41.641741Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T03:48:42.557443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-08-27T03:48:45.882529Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T03:48:45.883184Z  INFO herdr::pane: pane session terminated pane=7 pid=17372 signal=Hangup
+2026-08-27T03:48:50.887611Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T04:03:44.018713Z  INFO herdr::server::headless: client resize client_id=2 cols=186 rows=70 cell_width_px=0 cell_height_px=0
+2026-08-27T04:03:46.293154Z  INFO herdr::server::headless: client resize client_id=2 cols=186 rows=71 cell_width_px=0 cell_height_px=0
+2026-08-27T04:03:54.171548Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=70 cols=161 scrollback_limit_bytes=10000000
+2026-08-27T04:03:54.177424Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=17837
+2026-08-27T04:03:54.177760Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t3"
+2026-08-27T04:03:54.177822Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t3"
+2026-08-27T04:03:59.185230Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T04:08:59.020626Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=70 cols=161 scrollback_limit_bytes=10000000
+2026-08-27T04:08:59.026134Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=19496
+2026-08-27T04:08:59.026498Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t4"
+2026-08-27T04:08:59.026557Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t4"
+2026-08-27T04:09:04.032049Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T04:09:09.755947Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T04:09:09.756881Z  INFO herdr::pane: pane session terminated pane=9 pid=19496 signal=Hangup
+2026-08-27T04:09:14.762620Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T04:09:20.884465Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=82 cell_width_px=0 cell_height_px=0
+2026-08-27T04:09:56.089528Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T04:39:56.084075Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T04:57:12.535115Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=81 cols=187 scrollback_limit_bytes=10000000
+2026-08-27T04:57:12.541524Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=23604
+2026-08-27T04:57:12.541846Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-08-27T04:57:12.541904Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-08-27T04:57:17.549345Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T04:58:51.616030Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-08-27T04:58:51.617763Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-08-27T04:58:57.281835Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T04:58:59.126680Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t3"
+2026-08-27T04:59:00.491544Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t5"
+2026-08-27T04:59:02.148639Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T04:59:02.149288Z  INFO herdr::pane: pane session terminated pane=10 pid=23604 signal=Hangup
+2026-08-27T04:59:04.213828Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-08-27T04:59:06.823552Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t3"
+2026-08-27T04:59:11.828166Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T04:59:22.925779Z  INFO herdr::server::headless: client resize client_id=2 cols=297 rows=100 cell_width_px=0 cell_height_px=0
+2026-08-27T04:59:26.054988Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=82 cell_width_px=0 cell_height_px=0
+2026-08-27T05:09:56.091318Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T05:18:54.086478Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=81 cols=187 scrollback_limit_bytes=10000000
+2026-08-27T05:18:54.094122Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=27571
+2026-08-27T05:18:54.094431Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T05:18:54.094496Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T05:18:59.102893Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T05:39:56.089305Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T06:09:56.086013Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T06:39:56.078284Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T06:43:59.225278Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T06:43:59.225872Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=81 cols=187 scrollback_limit_bytes=10000000
+2026-08-27T06:43:59.228179Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=32250
+2026-08-27T06:43:59.228372Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T06:43:59.228732Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T06:44:01.178567Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T06:44:03.926194Z  INFO herdr::pane: agent changed pane=11 previous_agent=None agent=Some(Claude) process=claude pgid=Some(32260)
+2026-08-27T06:44:09.157204Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T06:45:35.802918Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-27T06:57:25.307062Z  INFO herdr::server::headless: client resize client_id=2 cols=226 rows=68 cell_width_px=0 cell_height_px=0
+2026-08-27T06:57:56.314583Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=82 cell_width_px=0 cell_height_px=0
+2026-08-27T06:58:02.693266Z  INFO herdr::server::headless: client resize client_id=2 cols=226 rows=68 cell_width_px=0 cell_height_px=0
+2026-08-27T06:58:09.326142Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=82 cell_width_px=0 cell_height_px=0
+2026-08-27T06:58:09.370423Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=82 cell_width_px=0 cell_height_px=0
+2026-08-27T07:09:59.464925Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T07:39:59.471820Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T07:51:33.568670Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T07:53:09.367655Z  INFO herdr::server::headless: client resize client_id=2 cols=226 rows=68 cell_width_px=0 cell_height_px=0
+2026-08-27T07:59:11.975897Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=82 cell_width_px=0 cell_height_px=0
+2026-08-27T08:08:26.446489Z  INFO herdr::pane: agent changed pane=11 previous_agent=Some(Claude) agent=None pgid=Some(27571)
+2026-08-27T08:08:31.148330Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:08:36.636640Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T08:08:41.642297Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:09:06.053632Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T08:09:11.058666Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:09:14.230111Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t3"
+2026-08-27T08:09:15.534070Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T08:09:20.538061Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:12:25.061046Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=80 cell_width_px=0 cell_height_px=0
+2026-08-27T08:12:25.689926Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=85 cell_width_px=0 cell_height_px=0
+2026-08-27T08:14:33.701644Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T08:17:48.464669Z  INFO herdr::server::headless: client resize client_id=2 cols=274 rows=86 cell_width_px=0 cell_height_px=0
+2026-08-27T08:17:49.132333Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T08:17:52.600827Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-27T08:17:52.601536Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=13 rows=85 cols=119 scrollback_limit_bytes=10000000
+2026-08-27T08:17:52.605801Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=13 pid=38921
+2026-08-27T08:17:52.606006Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T08:17:52.606477Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-27T08:17:54.502406Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=13 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T08:17:54.507260Z  INFO herdr::pane: pane session terminated pane=13 pid=38921 signal=Hangup
+2026-08-27T08:17:54.999235Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=12 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T08:17:55.002833Z  INFO herdr::pane: pane session terminated pane=12 pid=32250 signal=Hangup
+2026-08-27T08:17:59.768772Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=85 cell_width_px=0 cell_height_px=0
+2026-08-27T08:18:00.005356Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:26:34.851126Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=84 cell_width_px=0 cell_height_px=0
+2026-08-27T08:26:37.860143Z  INFO herdr::server::headless: client resize client_id=2 cols=212 rows=85 cell_width_px=0 cell_height_px=0
+2026-08-27T08:26:46.471935Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=14 rows=84 cols=176 scrollback_limit_bytes=10000000
+2026-08-27T08:26:46.477306Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=14 pid=39594
+2026-08-27T08:26:46.477606Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t7"
+2026-08-27T08:26:46.477652Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t7"
+2026-08-27T08:26:51.486214Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:28:31.677382Z  INFO herdr::pane: agent changed pane=14 previous_agent=None agent=Some(Claude) process=claude pgid=Some(39832)
+2026-08-27T08:28:36.933961Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:29:11.614702Z  INFO herdr::pane: agent changed pane=14 previous_agent=Some(Claude) agent=None pgid=Some(39594)
+2026-08-27T08:29:16.317663Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:31:48.767499Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t6"
+2026-08-27T08:31:53.774585Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:33:28.212611Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=11 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T08:33:28.214768Z  INFO herdr::pane: pane session terminated pane=11 pid=27571 signal=Hangup
+2026-08-27T08:33:33.220122Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:34:46.907379Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T08:34:46.908698Z  INFO herdr::pane: pane session terminated pane=8 pid=17837 signal=Hangup
+2026-08-27T08:34:51.913332Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:35:26.666686Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-08-27T08:35:26.667885Z  INFO herdr::pane: pane session terminated pane=1 pid=15900 signal=Hangup
+2026-08-27T08:35:31.671479Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:37:06.119142Z  INFO herdr::pane: agent changed pane=14 previous_agent=None agent=Some(Claude) process=claude pgid=Some(40855)
+2026-08-27T08:37:11.730092Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T08:44:33.701867Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T08:49:21.187007Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=15 rows=84 cols=176 scrollback_limit_bytes=10000000
+2026-08-27T08:49:21.193384Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=15 pid=41345
+2026-08-27T08:49:21.193716Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t8"
+2026-08-27T08:49:21.193775Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t8"
+2026-08-27T08:49:26.198719Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-27T09:14:33.702295Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-27T23:57:35.636397Z  INFO herdr::server::headless: client resize client_id=2 cols=226 rows=68 cell_width_px=0 cell_height_px=0
+2026-08-28T00:03:55.648171Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T00:27:27.743158Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=15 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T00:27:27.744965Z  INFO herdr::pane: pane session terminated pane=15 pid=41345 signal=Hangup
+2026-08-28T00:27:30.396127Z  INFO herdr::pane: agent changed pane=14 previous_agent=Some(Claude) agent=None pgid=Some(39594)
+2026-08-28T00:27:31.204295Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=14 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T00:27:31.205047Z  INFO herdr::pane: pane session terminated pane=14 pid=39594 signal=Hangup
+2026-08-28T00:27:31.205276Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=16 rows=67 cols=190 scrollback_limit_bytes=10000000
+2026-08-28T00:27:31.211375Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=16 pid=43755
+2026-08-28T00:27:31.211902Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wA" pane_id=16
+2026-08-28T00:27:31.211924Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-08-28T00:27:31.211958Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-08-28T00:27:33.677940Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=16 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T00:27:33.678625Z  INFO herdr::pane: pane session terminated pane=16 pid=43755 signal=Hangup
+2026-08-28T00:27:33.678835Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=17 rows=67 cols=190 scrollback_limit_bytes=10000000
+2026-08-28T00:27:33.684476Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=17 pid=43767
+2026-08-28T00:27:33.684780Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wB" pane_id=17
+2026-08-28T00:27:33.684792Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-08-28T00:27:33.684820Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-08-28T00:27:38.432241Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-28T00:27:38.484787Z  INFO herdr::server::headless: completing server shutdown
+2026-08-28T00:27:38.540774Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T00:27:38.540793Z  INFO herdr::server::headless: headless server exiting
+2026-08-28T00:27:38.541599Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=17 status="ExitStatus { code: 1, signal: None }"
+2026-08-28T00:27:38.566086Z  INFO herdr::pane: pane session terminated pane=17 pid=43767 signal=Hangup
+2026-08-28T00:27:38.566658Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=15899
+2026-08-28T03:48:06.261967Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=2560 target=8192
+2026-08-28T03:48:06.263206Z  INFO herdr::api::server: api server listening path=/Users/hiroki.nakano/.config/herdr/herdr.sock
+2026-08-28T03:48:06.268117Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-28T03:48:06.272432Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=55030
+2026-08-28T03:48:06.272628Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-08-28T03:48:06.272865Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-28T03:48:06.303580Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T03:48:06.307171Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/hiroki.nakano
+2026-08-28T03:48:06.307556Z  INFO herdr::server::headless: client protocol socket listening path=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-28T03:48:06.307589Z  INFO herdr::server::headless: herdr server started api_socket=/Users/hiroki.nakano/.config/herdr/herdr.sock client_socket=/Users/hiroki.nakano/.config/herdr/herdr-client.sock
+2026-08-28T03:48:06.308353Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=55029
+2026-08-28T03:48:06.316894Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T03:48:06.317352Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=25 cols=39 scrollback_limit_bytes=10000000
+2026-08-28T03:48:06.318851Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=55072
+2026-08-28T03:48:06.319129Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T03:48:06.327283Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 2, signal: None }"
+2026-08-28T03:48:06.327307Z  INFO herdr::pane: pane session terminated pane=2 pid=55072 signal=Hangup
+2026-08-28T03:48:06.597547Z  INFO herdr::server::headless: client connected client_id=2 cols=157 rows=64 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-28T03:48:16.377087Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Claude) process=claude pgid=Some(55239)
+2026-08-28T03:48:21.471483Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T03:48:32.420777Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Claude) agent=None pgid=Some(55030)
+2026-08-28T03:48:36.742039Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T03:48:36.742717Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=63 cols=121 scrollback_limit_bytes=10000000
+2026-08-28T03:48:36.745476Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=55288
+2026-08-28T03:48:36.745596Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-08-28T03:48:36.746184Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T03:48:41.749469Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T03:48:42.209604Z  INFO herdr::server::headless: client resize client_id=2 cols=210 rows=80 cell_width_px=0 cell_height_px=0
+2026-08-28T03:49:31.909995Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T03:49:31.911005Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=79 cols=87 scrollback_limit_bytes=10000000
+2026-08-28T03:49:31.915159Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=55318
+2026-08-28T03:49:31.915377Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-08-28T03:49:31.916103Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T03:49:33.868898Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T03:49:33.871436Z  INFO herdr::pane: pane session terminated pane=4 pid=55318 signal=Hangup
+2026-08-28T03:49:34.018249Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T03:49:34.018885Z  INFO herdr::pane: pane session terminated pane=3 pid=55288 signal=Hangup
+2026-08-28T03:49:39.023659Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T03:49:41.532159Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-08-28T03:49:41.536172Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-08-28T03:57:22.467949Z  INFO herdr::server::headless: client connected client_id=4 cols=210 rows=80 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-28T03:57:35.937403Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T03:57:35.938328Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T03:57:35.942493Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=55451
+2026-08-28T03:57:35.942803Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-08-28T03:57:35.943358Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T03:57:37.794939Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T03:57:37.797319Z  INFO herdr::pane: pane session terminated pane=5 pid=55451 signal=Hangup
+2026-08-28T03:57:42.801774Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T03:58:02.408451Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-08-28T03:58:07.412276Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T03:58:21.860217Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T03:58:21.866662Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=55473
+2026-08-28T03:58:21.867269Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wC" pane_id=6
+2026-08-28T03:58:21.867293Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wC"
+2026-08-28T03:58:21.867331Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wC" tab_id="wC:t1"
+2026-08-28T03:58:26.872877Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T03:58:28.869783Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="wC"
+2026-08-28T03:58:28.872083Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: None }"
+2026-08-28T03:58:28.895733Z  INFO herdr::pane: pane session terminated pane=6 pid=55473 signal=Hangup
+2026-08-28T03:58:28.896557Z  WARN herdr::app::actions: PaneDied for unknown pane pane=6
+2026-08-28T03:58:33.901210Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T03:59:17.382709Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T03:59:17.390084Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=55525
+2026-08-28T03:59:17.390688Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wD" pane_id=7
+2026-08-28T03:59:17.390710Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-08-28T03:59:17.390746Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T03:59:22.397440Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:00:44.973859Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Claude) process=claude pgid=Some(55612)
+2026-08-28T04:00:49.830393Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:01:20.673934Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:01:20.681511Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=55653
+2026-08-28T04:01:20.681848Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:01:25.688927Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:01:46.614033Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:01:46.614768Z  INFO herdr::pane: pane session terminated pane=8 pid=55653 signal=Hangup
+2026-08-28T04:01:51.619512Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:02:59.980410Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:02:59.982108Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:02:59.985956Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=55723
+2026-08-28T04:02:59.986196Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:02:59.986792Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:03:04.990676Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:05:45.900945Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-08-28T04:05:45.901295Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-08-28T04:05:49.757961Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-08-28T04:05:49.758140Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:05:54.763381Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:06:08.759614Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:06:13.764877Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:06:16.669940Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=79 cols=87 scrollback_limit_bytes=10000000
+2026-08-28T04:06:16.674996Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=55756
+2026-08-28T04:06:16.675261Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:06:20.272378Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:06:20.273638Z  INFO herdr::pane: pane session terminated pane=10 pid=55756 signal=Hangup
+2026-08-28T04:06:25.276911Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:06:36.138924Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=79 cols=87 scrollback_limit_bytes=10000000
+2026-08-28T04:06:36.146076Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=55779
+2026-08-28T04:06:36.146410Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:06:36.146477Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:06:40.174652Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:06:43.959465Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:06:44.932891Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:06:44.934647Z  INFO herdr::pane: pane session terminated pane=9 pid=55723 signal=Hangup
+2026-08-28T04:06:49.939626Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:16:19.757486Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:16:24.762464Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:16:31.329379Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:16:36.332535Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:16:54.500908Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:16:59.504500Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:18:06.301953Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T04:19:00.442932Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=79 cols=206 scrollback_limit_bytes=10000000
+2026-08-28T04:19:00.447139Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=58023
+2026-08-28T04:19:00.447360Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:19:00.447369Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:19:05.453481Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:19:44.502009Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:19:44.503043Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:19:55.749325Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:19:55.750381Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:20:32.577044Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:20:34.873177Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:20:39.878779Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:20:43.799562Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:20:48.803680Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:21:08.089995Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:21:08.090655Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=13 rows=79 cols=206 scrollback_limit_bytes=10000000
+2026-08-28T04:21:08.095295Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=13 pid=58613
+2026-08-28T04:21:08.095468Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:21:08.096023Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:21:13.099711Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:21:45.097727Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=13 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:21:45.100332Z  INFO herdr::pane: pane session terminated pane=13 pid=58613 signal=Hangup
+2026-08-28T04:21:50.104635Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:22:43.872524Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:22:43.873106Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=14 rows=79 cols=206 scrollback_limit_bytes=10000000
+2026-08-28T04:22:43.877609Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=14 pid=58670
+2026-08-28T04:22:43.877809Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:22:43.878398Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:22:47.200025Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=14 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:22:47.203018Z  INFO herdr::pane: pane session terminated pane=14 pid=58670 signal=Hangup
+2026-08-28T04:22:52.207365Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:23:08.279385Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:23:13.284517Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:25:30.478739Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:25:35.482956Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:25:53.734699Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:25:53.735519Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=15 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:25:53.739940Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=15 pid=58827
+2026-08-28T04:25:53.740115Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:25:53.740511Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:25:57.574316Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:25:57.575572Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=16 rows=79 cols=87 scrollback_limit_bytes=10000000
+2026-08-28T04:25:57.580578Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=16 pid=58847
+2026-08-28T04:25:57.580882Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:25:57.581403Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:25:57.677372Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=15 status="ExitStatus { code: 101, signal: None }"
+2026-08-28T04:25:57.677809Z  INFO herdr::pane: pane session terminated pane=15 pid=58827 signal=Hangup
+2026-08-28T04:25:59.258085Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:25:59.258621Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=17 rows=79 cols=87 scrollback_limit_bytes=10000000
+2026-08-28T04:25:59.261880Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=17 pid=58858
+2026-08-28T04:25:59.262049Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:25:59.262418Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:25:59.318142Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=16 status="ExitStatus { code: 101, signal: None }"
+2026-08-28T04:25:59.318683Z  INFO herdr::pane: pane session terminated pane=16 pid=58847 signal=Hangup
+2026-08-28T04:26:01.204804Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=17 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:26:01.205339Z  INFO herdr::pane: pane session terminated pane=17 pid=58858 signal=Hangup
+2026-08-28T04:26:06.209377Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:26:19.982124Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:26:19.982890Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:26:35.481591Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:26:35.482338Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=18 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:26:35.486940Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=18 pid=58942
+2026-08-28T04:26:35.487204Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:26:35.487812Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:26:40.490648Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:26:51.393872Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-08-28T04:26:51.397920Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-08-28T04:26:54.212558Z  INFO herdr::server::headless: client connected client_id=6 cols=210 rows=80 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-28T04:26:57.037234Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=18 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:26:57.039599Z  INFO herdr::pane: pane session terminated pane=18 pid=58942 signal=Hangup
+2026-08-28T04:27:02.044027Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:31:20.756790Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:31:25.761427Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:34:14.443225Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:34:18.989469Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:34:18.990071Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=19 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:34:18.995047Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=19 pid=59148
+2026-08-28T04:34:18.995283Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:34:18.995818Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:34:23.399374Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=19 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:34:23.399967Z  INFO herdr::pane: pane session terminated pane=19 pid=59148 signal=Hangup
+2026-08-28T04:34:28.283914Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:34:28.284767Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:34:28.403288Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:35:13.138123Z  INFO herdr::server::headless: client detach requested via keybind client_id=6
+2026-08-28T04:35:13.142758Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-08-28T04:35:14.416909Z  INFO herdr::server::headless: client connected client_id=8 cols=210 rows=80 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-28T04:35:17.733266Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:35:17.734031Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=20 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:35:17.739230Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=20 pid=59275
+2026-08-28T04:35:17.739524Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:35:17.740079Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:35:22.743049Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:35:43.607657Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=20 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:35:43.610185Z  INFO herdr::pane: pane session terminated pane=20 pid=59275 signal=Hangup
+2026-08-28T04:35:45.806516Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:35:50.810509Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:37:41.364497Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:37:46.367998Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:38:18.575092Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:38:23.578253Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:39:24.883933Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:39:24.884664Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=21 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:39:24.890039Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=21 pid=59850
+2026-08-28T04:39:24.890220Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:39:24.890683Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:39:26.177563Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:39:26.180545Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=22 rows=79 cols=87 scrollback_limit_bytes=10000000
+2026-08-28T04:39:26.183379Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=22 pid=59859
+2026-08-28T04:39:26.183511Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:39:26.183763Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:39:26.229405Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=21 status="ExitStatus { code: 101, signal: None }"
+2026-08-28T04:39:26.229628Z  INFO herdr::pane: pane session terminated pane=21 pid=59850 signal=Hangup
+2026-08-28T04:39:28.790905Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=22 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:39:28.793031Z  INFO herdr::pane: pane session terminated pane=22 pid=59859 signal=Hangup
+2026-08-28T04:39:33.797368Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:40:16.030634Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:40:21.035534Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:40:23.026785Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:40:23.027502Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=23 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:40:23.032204Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=23 pid=59997
+2026-08-28T04:40:23.032438Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:40:23.032882Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:40:28.036334Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:40:28.111838Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=23 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:40:28.112365Z  INFO herdr::pane: pane session terminated pane=23 pid=59997 signal=Hangup
+2026-08-28T04:40:33.116164Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:40:33.375333Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:40:33.376156Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:40:37.537009Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:40:37.537505Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=24 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:40:37.540141Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=24 pid=60052
+2026-08-28T04:40:37.540271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:40:37.540567Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:40:42.348991Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=24 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:40:42.351547Z  INFO herdr::pane: pane session terminated pane=24 pid=60052 signal=Hangup
+2026-08-28T04:40:45.135660Z  INFO herdr::server::headless: client detach requested via keybind client_id=8
+2026-08-28T04:40:45.139557Z  INFO herdr::server::headless: client disconnected client_id=8
+2026-08-28T04:40:46.921190Z  INFO herdr::server::headless: client connected client_id=10 cols=210 rows=80 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-28T04:40:47.355557Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:40:49.282458Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:40:49.283272Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=25 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:40:49.287105Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=25 pid=60086
+2026-08-28T04:40:49.287393Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:40:49.287935Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:40:53.809419Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=25 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:40:53.811963Z  INFO herdr::pane: pane session terminated pane=25 pid=60086 signal=Hangup
+2026-08-28T04:40:56.731646Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:40:56.732526Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:40:58.815175Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:41:00.035691Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:41:00.036276Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=26 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:41:00.040243Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=26 pid=60143
+2026-08-28T04:41:00.040443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:41:00.040799Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:41:05.044133Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:41:06.531609Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=26 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:41:06.532140Z  INFO herdr::pane: pane session terminated pane=26 pid=60143 signal=Hangup
+2026-08-28T04:41:09.137739Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:41:14.142462Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:41:28.533750Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:41:31.292798Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:41:31.293724Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:41:33.538564Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:41:43.222871Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:41:43.223609Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=27 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:41:43.228243Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=27 pid=60224
+2026-08-28T04:41:43.228501Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:41:43.229091Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:41:48.232645Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:41:58.976625Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:42:54.791094Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:42:59.796929Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:43:56.490067Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:43:56.490812Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=28 rows=79 cols=130 scrollback_limit_bytes=10000000
+2026-08-28T04:43:56.495699Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=28 pid=61150
+2026-08-28T04:43:56.495958Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:43:56.496391Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:43:59.727652Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=28 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:43:59.731818Z  INFO herdr::pane: pane session terminated pane=28 pid=61150 signal=Hangup
+2026-08-28T04:44:01.911802Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:44:02.953312Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=27 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:44:02.956984Z  INFO herdr::pane: pane session terminated pane=27 pid=60224 signal=Hangup
+2026-08-28T04:44:07.961352Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:44:10.046213Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:44:10.047140Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:44:14.615043Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:44:14.615615Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=29 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:44:14.619286Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=29 pid=61216
+2026-08-28T04:44:14.619456Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:44:14.619783Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:44:18.210347Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=29 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:44:18.214441Z  INFO herdr::pane: pane session terminated pane=29 pid=61216 signal=Hangup
+2026-08-28T04:44:20.999283Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:44:21.000375Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:44:23.218467Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:44:31.349922Z  INFO herdr::server::headless: client detach requested via keybind client_id=10
+2026-08-28T04:44:31.353903Z  INFO herdr::server::headless: client disconnected client_id=10
+2026-08-28T04:44:32.376307Z  INFO herdr::server::headless: client connected client_id=12 cols=210 rows=80 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-28T04:44:35.252001Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:44:35.252877Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=30 rows=79 cols=174 scrollback_limit_bytes=10000000
+2026-08-28T04:44:35.257728Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=30 pid=61290
+2026-08-28T04:44:35.257976Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:44:35.258560Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:44:44.334127Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:44:46.276739Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:44:46.277701Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=31 rows=79 cols=128 scrollback_limit_bytes=10000000
+2026-08-28T04:44:46.282365Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=31 pid=61778
+2026-08-28T04:44:46.282624Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:44:46.283200Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:44:48.044320Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=31 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:44:48.044945Z  INFO herdr::pane: pane session terminated pane=31 pid=61778 signal=Hangup
+2026-08-28T04:44:50.016345Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:44:50.145676Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=30 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:44:50.149745Z  INFO herdr::pane: pane session terminated pane=30 pid=61290 signal=Hangup
+2026-08-28T04:44:55.152935Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:47:07.263106Z  INFO herdr::server::headless: client resize client_id=12 cols=225 rows=80 cell_width_px=0 cell_height_px=0
+2026-08-28T04:47:27.560287Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:47:27.561070Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:47:38.697053Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:47:38.697490Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:47:40.240939Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:47:40.241424Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:47:41.679892Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:47:41.680264Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:47:42.673584Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:47:42.674018Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:47:49.105684Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:47:49.106226Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:47:51.622583Z  INFO herdr::server::headless: client detach requested via keybind client_id=12
+2026-08-28T04:47:51.626030Z  INFO herdr::server::headless: client disconnected client_id=12
+2026-08-28T04:47:53.406042Z  INFO herdr::server::headless: client connected client_id=14 cols=225 rows=80 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-28T04:47:54.687953Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:47:54.688377Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:47:55.844157Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:47:55.844597Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:48:06.301390Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T04:48:42.745478Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:48:47.131042Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:48:47.131405Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:48:47.750163Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:48:54.826154Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:48:54.826322Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:49:09.869057Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:49:14.873199Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:50:49.789693Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=32 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T04:50:49.796953Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=32 pid=62729
+2026-08-28T04:50:49.797285Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t4"
+2026-08-28T04:50:49.797338Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t4"
+2026-08-28T04:50:54.803119Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:51:03.682387Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=32 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:51:03.683052Z  INFO herdr::pane: pane session terminated pane=32 pid=62729 signal=Hangup
+2026-08-28T04:51:06.288433Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:51:08.060573Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:51:08.061015Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:51:11.293835Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:52:07.156660Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:52:10.474805Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:52:10.475701Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:52:12.161740Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:52:40.906407Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:52:40.907333Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=33 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T04:52:40.912172Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=33 pid=63183
+2026-08-28T04:52:40.912423Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:52:40.913091Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:52:45.915117Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:52:55.164215Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=33 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:52:55.168095Z  INFO herdr::pane: pane session terminated pane=33 pid=63183 signal=Hangup
+2026-08-28T04:53:00.171325Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:53:01.962676Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:53:06.967002Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:54:13.261049Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:54:18.265448Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:54:36.537393Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:54:41.542527Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:55:11.577381Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:55:11.578236Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:55:13.603251Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:55:13.604044Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=34 rows=37 cols=91 scrollback_limit_bytes=10000000
+2026-08-28T04:55:13.608960Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=34 pid=63566
+2026-08-28T04:55:13.609280Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:55:54.768033Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=34 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:55:54.768151Z  INFO herdr::pane: pane session terminated pane=34 pid=63566 signal=Hangup
+2026-08-28T04:55:56.224914Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:55:56.225598Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=35 rows=37 cols=91 scrollback_limit_bytes=10000000
+2026-08-28T04:55:56.229659Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=35 pid=63579
+2026-08-28T04:55:56.229967Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:55:59.238405Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=35 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:55:59.242306Z  INFO herdr::pane: pane session terminated pane=35 pid=63579 signal=Hangup
+2026-08-28T04:56:22.927012Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:56:23.984921Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T04:56:25.094219Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:56:30.097408Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:57:33.727558Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:57:38.736744Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:57:47.333102Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:57:47.333975Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:57:49.197889Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:57:49.198671Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=36 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T04:57:49.203771Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=36 pid=64410
+2026-08-28T04:57:49.204018Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:57:49.204627Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:57:51.969585Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=36 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:57:51.970264Z  INFO herdr::pane: pane session terminated pane=36 pid=64410 signal=Hangup
+2026-08-28T04:57:56.975236Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:58:00.587855Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:58:05.590819Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:58:09.294004Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:58:14.303838Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:58:20.800512Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:58:20.801444Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:58:24.269854Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:58:24.270612Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=37 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T04:58:24.276261Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=37 pid=64759
+2026-08-28T04:58:24.276534Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:58:24.277048Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:58:26.952649Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=37 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:58:26.956613Z  INFO herdr::pane: pane session terminated pane=37 pid=64759 signal=Hangup
+2026-08-28T04:58:29.301534Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T04:58:34.306376Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:58:57.942694Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T04:59:02.946376Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T04:59:08.305124Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T04:59:08.305959Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T04:59:11.941688Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T04:59:11.942439Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=38 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T04:59:11.947505Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=38 pid=65106
+2026-08-28T04:59:11.947821Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t5"
+2026-08-28T04:59:11.948696Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T04:59:15.210833Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=38 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T04:59:15.214683Z  INFO herdr::pane: pane session terminated pane=38 pid=65106 signal=Hangup
+2026-08-28T04:59:20.217727Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:00:10.983089Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:00:15.985964Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:00:39.050810Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:00:44.057231Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:00:50.986896Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:00:50.987695Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:00:52.336776Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:00:52.337668Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=39 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T05:00:52.342562Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=39 pid=65458
+2026-08-28T05:00:52.342886Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:00:52.343621Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:00:55.415431Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=39 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:00:55.421240Z  INFO herdr::pane: pane session terminated pane=39 pid=65458 signal=Hangup
+2026-08-28T05:01:00.424694Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:01:21.815389Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:01:26.819672Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:01:45.859938Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:01:50.864016Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:01:56.871748Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:01:56.872738Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:01:58.448688Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:01:58.448981Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:01:59.725569Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:01:59.725981Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:02:00.594234Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:02:00.594648Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:02:01.360671Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:02:01.361080Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:02:07.510923Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:02:12.514491Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:02:53.110454Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:02:58.114783Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:03:04.958722Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:03:04.959758Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:03:06.885800Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:03:06.886225Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:03:08.570827Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:03:08.571173Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:03:09.465859Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:03:09.466192Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:03:10.093624Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:03:10.093977Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="error" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:03:11.860346Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:03:16.868355Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:06:42.139959Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:06:47.144710Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:07:12.411579Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:07:12.412521Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:07:16.018386Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:07:16.019104Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=40 rows=20 cols=39 scrollback_limit_bytes=10000000
+2026-08-28T05:07:16.023747Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=40 pid=66691
+2026-08-28T05:07:16.024056Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:07:18.834416Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=40 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:07:18.838472Z  INFO herdr::pane: pane session terminated pane=40 pid=66691 signal=Hangup
+2026-08-28T05:07:19.450567Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:07:19.451538Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=41 rows=20 cols=39 scrollback_limit_bytes=10000000
+2026-08-28T05:07:19.456189Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=41 pid=66700
+2026-08-28T05:07:19.456457Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:07:43.749046Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=41 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:07:43.753075Z  INFO herdr::pane: pane session terminated pane=41 pid=66700 signal=Hangup
+2026-08-28T05:07:54.531845Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:07:55.932537Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:08:00.936991Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:09:43.862769Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:09:48.866161Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:10:00.733150Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:10:00.734943Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:10:09.585948Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:10:14.590253Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:11:07.982210Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:11:12.985979Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:11:17.377944Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:11:22.382064Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:11:44.114847Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:11:44.115518Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:11:45.357826Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:11:45.358494Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=42 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T05:11:45.362581Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=42 pid=67481
+2026-08-28T05:11:45.362845Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:11:45.363497Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:11:50.366500Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:14:04.328522Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:14:15.566456Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:14:16.962287Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:14:20.384069Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=42 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:14:20.384781Z  INFO herdr::pane: pane session terminated pane=42 pid=67481 signal=Hangup
+2026-08-28T05:14:21.927989Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:14:30.211406Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:18:06.299808Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T05:19:20.686831Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:19:25.693499Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:19:31.422884Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:19:31.423293Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:19:34.849139Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:19:34.849853Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=43 rows=79 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T05:19:34.854870Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=43 pid=70078
+2026-08-28T05:19:34.855204Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:19:34.855767Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:19:39.858995Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:19:52.920897Z  INFO herdr::server::headless: client resize client_id=14 cols=225 rows=61 cell_width_px=0 cell_height_px=0
+2026-08-28T05:19:55.005173Z  INFO herdr::server::headless: client resize client_id=14 cols=225 rows=56 cell_width_px=0 cell_height_px=0
+2026-08-28T05:19:55.902550Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:19:57.594407Z  INFO herdr::server::headless: client resize client_id=14 cols=225 rows=79 cell_width_px=0 cell_height_px=0
+2026-08-28T05:20:04.457301Z  INFO herdr::server::headless: client resize client_id=14 cols=225 rows=57 cell_width_px=0 cell_height_px=0
+2026-08-28T05:20:05.931273Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:20:10.935327Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:20:11.414154Z  INFO herdr::server::headless: client resize client_id=14 cols=225 rows=72 cell_width_px=0 cell_height_px=0
+2026-08-28T05:20:21.530895Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:20:25.799640Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:20:26.872727Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=43 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:20:26.873385Z  INFO herdr::pane: pane session terminated pane=43 pid=70078 signal=Hangup
+2026-08-28T05:20:31.876462Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:24:23.278477Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:24:28.284214Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:33:57.209623Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:34:02.215667Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:34:22.601431Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:34:22.601796Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:34:24.460470Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:34:24.461238Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=44 rows=71 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T05:34:24.466533Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=44 pid=74175
+2026-08-28T05:34:24.466785Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:34:24.467382Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:34:29.470600Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:34:40.787020Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:34:42.628326Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:34:43.736109Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=44 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:34:43.736741Z  INFO herdr::pane: pane session terminated pane=44 pid=74175 signal=Hangup
+2026-08-28T05:34:46.363470Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:34:48.961819Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:34:50.674068Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:34:50.674624Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=45 rows=71 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T05:34:50.678330Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=45 pid=74207
+2026-08-28T05:34:50.678549Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:34:50.678961Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:34:54.742710Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:34:54.743576Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=46 rows=71 cols=95 scrollback_limit_bytes=10000000
+2026-08-28T05:34:54.748460Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=46 pid=74216
+2026-08-28T05:34:54.748727Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:34:54.749324Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:34:56.438679Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=46 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:34:56.439331Z  INFO herdr::pane: pane session terminated pane=46 pid=74216 signal=Hangup
+2026-08-28T05:34:56.932057Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=45 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:34:56.934482Z  INFO herdr::pane: pane session terminated pane=45 pid=74207 signal=Hangup
+2026-08-28T05:34:58.658984Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:34:58.659877Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=47 rows=71 cols=189 scrollback_limit_bytes=10000000
+2026-08-28T05:34:58.664757Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=47 pid=74225
+2026-08-28T05:34:58.665005Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:34:58.665564Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:35:03.668768Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:35:12.426966Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:35:14.610512Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Claude) agent=None pgid=Some(55525)
+2026-08-28T05:35:19.312118Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:35:38.785557Z  INFO herdr::server::headless: client resize client_id=14 cols=247 rows=84 cell_width_px=0 cell_height_px=0
+2026-08-28T05:35:42.008232Z  INFO herdr::server::headless: client resize client_id=14 cols=236 rows=66 cell_width_px=0 cell_height_px=0
+2026-08-28T05:35:50.769536Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-28T05:36:04.858396Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Claude) process=claude pgid=Some(74326)
+2026-08-28T05:36:09.694641Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:42:13.193024Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:42:18.198136Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:42:21.338371Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t2"
+2026-08-28T05:42:22.642882Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:42:23.541715Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:42:26.786780Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=47 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:42:26.790205Z  INFO herdr::pane: pane session terminated pane=47 pid=74225 signal=Hangup
+2026-08-28T05:42:28.041175Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:42:33.044935Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:42:37.117169Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.unlink" changes_ui=true
+2026-08-28T05:42:37.117462Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.unlink"
+2026-08-28T05:42:39.308442Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:42:39.309234Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=48 rows=65 cols=200 scrollback_limit_bytes=10000000
+2026-08-28T05:42:39.314529Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=48 pid=75537
+2026-08-28T05:42:39.314804Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:42:39.315491Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:42:47.086120Z  INFO herdr::server::headless: client resize client_id=14 cols=236 rows=41 cell_width_px=0 cell_height_px=0
+2026-08-28T05:42:49.140657Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:42:49.516555Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:42:50.815027Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:42:52.735131Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t3"
+2026-08-28T05:42:54.980662Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=12 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:42:54.981228Z  INFO herdr::pane: pane session terminated pane=12 pid=58023 signal=Hangup
+2026-08-28T05:42:58.309890Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=48 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:42:58.310482Z  INFO herdr::pane: pane session terminated pane=48 pid=75537 signal=Hangup
+2026-08-28T05:42:59.507206Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:43:01.726581Z  INFO herdr::server::headless: client resize client_id=14 cols=236 rows=73 cell_width_px=0 cell_height_px=0
+2026-08-28T05:43:04.510683Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:43:04.541824Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T05:43:04.542592Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=49 rows=72 cols=200 scrollback_limit_bytes=10000000
+2026-08-28T05:43:04.547124Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=49 pid=75941
+2026-08-28T05:43:04.547376Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:43:04.547946Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T05:43:08.824577Z  INFO herdr::server::headless: client resize client_id=14 cols=160 rows=39 cell_width_px=0 cell_height_px=0
+2026-08-28T05:43:09.552007Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:43:17.203984Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:43:19.171425Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:43:24.176569Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:43:37.668690Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:45:04.140420Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:45:05.526787Z  INFO herdr::server::headless: client resize client_id=14 cols=224 rows=48 cell_width_px=0 cell_height_px=0
+2026-08-28T05:45:06.151025Z  INFO herdr::server::headless: client resize client_id=14 cols=280 rows=62 cell_width_px=0 cell_height_px=0
+2026-08-28T05:45:09.147810Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:45:14.645768Z  INFO herdr::server::headless: client resize client_id=14 cols=244 rows=47 cell_width_px=0 cell_height_px=0
+2026-08-28T05:45:16.817118Z  INFO herdr::server::headless: client resize client_id=14 cols=283 rows=74 cell_width_px=0 cell_height_px=0
+2026-08-28T05:45:18.885085Z  INFO herdr::server::headless: client resize client_id=14 cols=282 rows=75 cell_width_px=0 cell_height_px=0
+2026-08-28T05:45:28.097124Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:48:06.301192Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T05:48:13.540338Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:48:15.538736Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Claude) agent=None pgid=Some(55525)
+2026-08-28T05:48:20.238551Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:48:23.367369Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T05:48:23.546256Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=49 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T05:48:23.546807Z  INFO herdr::pane: pane session terminated pane=49 pid=75941 signal=Hangup
+2026-08-28T05:48:26.111224Z  INFO herdr::server::headless: client resize client_id=14 cols=226 rows=58 cell_width_px=0 cell_height_px=0
+2026-08-28T05:48:26.316719Z  INFO herdr::server::headless: client resize client_id=14 cols=161 rows=48 cell_width_px=0 cell_height_px=0
+2026-08-28T05:48:28.550708Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T05:48:30.160928Z  INFO herdr::server::headless: client resize client_id=14 cols=226 rows=58 cell_width_px=0 cell_height_px=0
+2026-08-28T05:48:31.515441Z  INFO herdr::server::headless: client resize client_id=14 cols=161 rows=48 cell_width_px=0 cell_height_px=0
+2026-08-28T06:01:05.258011Z  INFO herdr::server::headless: client resize client_id=14 cols=215 rows=75 cell_width_px=0 cell_height_px=0
+2026-08-28T06:01:07.673460Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T06:01:07.674066Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=50 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T06:01:07.678313Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=50 pid=76932
+2026-08-28T06:01:07.678638Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T06:01:07.679200Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T06:01:09.615435Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=50 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T06:01:09.616060Z  INFO herdr::pane: pane session terminated pane=50 pid=76932 signal=Hangup
+2026-08-28T06:01:10.481051Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T06:01:10.481835Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=51 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T06:01:10.486177Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=51 pid=76963
+2026-08-28T06:01:10.486417Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T06:01:10.486971Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T06:01:11.473397Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=51 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T06:01:11.473820Z  INFO herdr::pane: pane session terminated pane=51 pid=76963 signal=Hangup
+2026-08-28T06:01:12.366189Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T06:01:12.367083Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=52 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T06:01:12.371669Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=52 pid=76994
+2026-08-28T06:01:12.371912Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T06:01:12.372517Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T06:01:13.089013Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=52 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T06:01:13.089679Z  INFO herdr::pane: pane session terminated pane=52 pid=76994 signal=Hangup
+2026-08-28T06:01:13.887793Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T06:01:13.888626Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=53 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T06:01:13.893108Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=53 pid=77027
+2026-08-28T06:01:13.893415Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T06:01:13.893991Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T06:01:14.702708Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=53 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T06:01:14.703304Z  INFO herdr::pane: pane session terminated pane=53 pid=77027 signal=Hangup
+2026-08-28T06:01:15.283384Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:plugin" method="plugin.pane.open" changes_ui=true
+2026-08-28T06:01:15.284171Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=54 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T06:01:15.288794Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=54 pid=77058
+2026-08-28T06:01:15.289042Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T06:01:15.289573Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:plugin" method="plugin.pane.open"
+2026-08-28T06:01:15.839812Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=54 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T06:01:15.840472Z  INFO herdr::pane: pane session terminated pane=54 pid=77058 signal=Hangup
+2026-08-28T06:01:20.843573Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T06:18:06.300276Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T06:27:13.245021Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-08-28T06:27:13.246664Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-08-28T06:27:17.043454Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T06:27:17.044058Z  INFO herdr::pane: pane session terminated pane=1 pid=55030 signal=Hangup
+2026-08-28T06:27:22.048471Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T06:27:27.330838Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=55 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T06:27:27.337184Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=55 pid=79143
+2026-08-28T06:27:27.338228Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wE" pane_id=55
+2026-08-28T06:27:27.338251Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wE"
+2026-08-28T06:27:27.338288Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T06:27:32.343498Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T06:48:06.293989Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T06:50:46.809703Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=56 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T06:50:46.816925Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=56 pid=80247
+2026-08-28T06:50:46.817247Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t2"
+2026-08-28T06:50:46.817298Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t2"
+2026-08-28T06:50:51.824354Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T06:54:12.582255Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T06:54:17.589326Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T06:58:20.707904Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t2"
+2026-08-28T06:58:25.715134Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T07:06:38.819607Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T07:06:43.825902Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=2
+2026-08-28T07:09:44.097394Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-08-28T07:09:44.098881Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-08-28T07:09:44.472901Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wE"
+2026-08-28T07:09:44.473037Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T07:09:47.185620Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=57 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T07:09:47.192549Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=57 pid=81086
+2026-08-28T07:09:47.193670Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wF" pane_id=57
+2026-08-28T07:09:47.193696Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wF"
+2026-08-28T07:09:47.193740Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wF" tab_id="wF:t1"
+2026-08-28T07:09:52.199379Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T07:15:31.543676Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-28T07:16:07.260875Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wE"
+2026-08-28T07:16:07.261881Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T07:16:07.642734Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wE"
+2026-08-28T07:16:07.642879Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T07:16:08.145834Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wF"
+2026-08-28T07:16:08.145959Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wF" tab_id="wF:t1"
+2026-08-28T07:16:08.513111Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wE"
+2026-08-28T07:16:08.513233Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T07:16:13.517790Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T07:18:06.303202Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T07:25:46.015848Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t2"
+2026-08-28T07:25:51.022573Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T07:48:06.303895Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T07:57:20.941232Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T07:57:25.948970Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T08:18:06.305021Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T08:21:22.311705Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=58 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T08:21:22.318721Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=58 pid=86986
+2026-08-28T08:21:22.319051Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t3"
+2026-08-28T08:21:22.319116Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t3"
+2026-08-28T08:21:27.325155Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T08:48:06.295113Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T08:59:44.548798Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T08:59:49.554783Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T09:00:04.516674Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t3"
+2026-08-28T09:00:09.521540Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T09:17:18.870761Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t2"
+2026-08-28T09:17:20.793743Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wE" tab_id="wE:t1"
+2026-08-28T09:17:25.799244Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=3
+2026-08-28T09:18:06.302002Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-28T09:20:22.875449Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=55 status="ExitStatus { code: 127, signal: None }"
+2026-08-28T09:20:22.877851Z  INFO herdr::pane: pane session terminated pane=55 pid=79143 signal=Hangup
+2026-08-28T09:20:26.685630Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=56 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T09:20:26.686171Z  INFO herdr::pane: pane session terminated pane=56 pid=80247 signal=Hangup
+2026-08-28T09:20:31.349568Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=58 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T09:20:31.350217Z  INFO herdr::pane: pane session terminated pane=58 pid=86986 signal=Hangup
+2026-08-28T09:20:33.703708Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=57 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T09:20:33.704329Z  INFO herdr::pane: pane session terminated pane=57 pid=81086 signal=Hangup
+2026-08-28T09:20:35.730784Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T09:20:35.731548Z  INFO herdr::pane: pane session terminated pane=7 pid=55525 signal=Hangup
+2026-08-28T09:20:40.734939Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T09:20:42.245497Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=11 status="ExitStatus { code: 0, signal: None }"
+2026-08-28T09:20:42.246031Z  INFO herdr::pane: pane session terminated pane=11 pid=55779 signal=Hangup
+2026-08-28T09:20:42.246290Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=59 rows=74 cols=179 scrollback_limit_bytes=10000000
+2026-08-28T09:20:42.252019Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=59 pid=92962
+2026-08-28T09:20:42.252331Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wG" pane_id=59
+2026-08-28T09:20:42.252346Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wG"
+2026-08-28T09:20:42.252386Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wG" tab_id="wG:t1"
+2026-08-28T09:20:47.263812Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T09:20:51.252429Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-28T09:20:51.307600Z  INFO herdr::server::headless: completing server shutdown
+2026-08-28T09:20:51.364192Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/hiroki.nakano/.config/herdr/session.json workspaces=1
+2026-08-28T09:20:51.364238Z  INFO herdr::server::headless: headless server exiting
+2026-08-28T09:20:51.366176Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=59 status="ExitStatus { code: 1, signal: None }"
+2026-08-28T09:20:51.389689Z  INFO herdr::pane: pane session terminated pane=59 pid=92962 signal=Hangup
+2026-08-28T09:20:51.390994Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=55029

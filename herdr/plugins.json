@@ -1,0 +1,56 @@
+[
+  {
+    "plugin_id": "flock.farm",
+    "name": "Flock",
+    "version": "0.1.0",
+    "min_herdr_version": "0.7.0",
+    "description": "Animated GIF overlay for herdr",
+    "manifest_path": "/Users/hiroki.nakano/Developer/herdr-flock/herdr-plugin.toml",
+    "plugin_root": "/Users/hiroki.nakano/Developer/herdr-flock",
+    "enabled": true,
+    "platforms": [
+      "linux",
+      "macos"
+    ],
+    "build": [
+      {
+        "platforms": [
+          "linux",
+          "macos"
+        ],
+        "command": [
+          "cargo",
+          "build",
+          "--release"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "open",
+        "title": "Open Flock Farm",
+        "contexts": [
+          "workspace"
+        ],
+        "command": [
+          "sh",
+          "-c",
+          "$HERDR_BIN_PATH plugin pane open --plugin flock.farm --entrypoint farm --placement split --direction right --focus"
+        ]
+      }
+    ],
+    "panes": [
+      {
+        "id": "farm",
+        "title": "Flock Farm",
+        "placement": "split",
+        "command": [
+          "./target/release/herdr-flock"
+        ]
+      }
+    ],
+    "source": {
+      "kind": "local"
+    }
+  }
+]

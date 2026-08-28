@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "wG",
+      "custom_name": null,
+      "identity_cwd": "/Users/hiroki.nakano",
+      "public_pane_numbers": {
+        "59": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 59
+          },
+          "panes": {
+            "59": {
+              "cwd": "/Users/hiroki.nakano"
+            }
+          },
+          "zoomed": false,
+          "focused": 59,
+          "root_pane": 59
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": 36,
+  "sidebar_section_split": 0.5,
+  "collapsed_space_keys": []
+}
