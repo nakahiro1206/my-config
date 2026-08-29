@@ -13,7 +13,11 @@ return {
         -- ...
       })
 
-      vim.cmd("colorscheme github_light")
+      vim.cmd("colorscheme github_light_high_contrast")
     end,
   },
 }
+
+-- return {
+--   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+-- }
