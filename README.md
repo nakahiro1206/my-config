@@ -4,4 +4,5 @@
 
 - Nerd fonts.
 - yazi
-- ???
+- herdr
+- lazygit

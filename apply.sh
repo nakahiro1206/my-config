@@ -1,5 +1,5 @@
 # directories to watch
-dirs=("ghostty" "kitty" "wezterm" "nvim" "tmux" "lazygit" "herdr")
+dirs=("kitty" "nvim" "lazygit" "herdr")
 cfg_path="$HOME/.config"
 # apply configuration files
 dist="./"
