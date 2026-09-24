@@ -1,7 +1,5 @@
 return {
-  -- lazy.nvim
-  {
-    "catppuccin/nvim",
+  "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000,
     opts = {
@@ -52,11 +50,4 @@ return {
         IlluminatedWordWrite = { bg = colors.surface0, underline = true },
       }
     end,
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin", -- 应用 catppuccin 颜色方案
-    },
-  },
 }
