@@ -17,9 +17,4 @@ return {
 
     -- see below for full list of optional dependencies 👇
   },
-  opts = {
-    workspaces = {},
-
-    -- see below for full list of options 👇
-  },
 }
