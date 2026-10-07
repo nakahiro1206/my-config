@@ -6,3 +6,4 @@
 - yazi
 - herdr
 - lazygit
+- git-delta
