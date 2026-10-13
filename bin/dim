@@ -1,0 +1,73 @@
+#!/usr/bin/env bash
+# Dim the external monitor (DDC/CI) and the laptop backlight.
+#
+# Usage: dim [-i|--interactive] [-h|--help]
+
+set -euo pipefail
+
+# Defaults (lab setup)
+CONTRAST=40     # VCP 0x12
+BRIGHTNESS=0    # VCP 0x10
+BACKLIGHT=5     # brightnessctl, percent
+
+usage() {
+  cat <<EOF
+Usage: $(basename "$0") [options]
+
+Set monitor contrast/brightness via ddcutil and backlight via brightnessctl.
+
+Defaults: contrast=$CONTRAST, brightness=$BRIGHTNESS, backlight=$BACKLIGHT%
+
+Options:
+  -i, --interactive  Prompt for each value (Enter keeps the default)
+  -h, --help         Show this help
+EOF
+}
+
+# prompt <label> <default> -> echoes a 0-100 integer
+prompt() {
+  local label=$1 default=$2 value
+  while true; do
+    read -rp "$label [0-100] ($default): " value
+    value=${value:-$default}
+    if [[ $value =~ ^[0-9]+$ ]] && (( value <= 100 )); then
+      echo "$value"
+      return
+    fi
+    echo "  Please enter an integer between 0 and 100." >&2
+  done
+}
+
+interactive=false
+while (( $# )); do
+  case $1 in
+    -i|--interactive) interactive=true ;;
+    -h|--help) usage; exit 0 ;;
+    *) echo "Unknown option: $1" >&2; usage >&2; exit 1 ;;
+  esac
+  shift
+done
+
+if $interactive; then
+  CONTRAST=$(prompt "Monitor contrast  " "$CONTRAST")
+  BRIGHTNESS=$(prompt "Monitor brightness" "$BRIGHTNESS")
+  BACKLIGHT=$(prompt "Laptop backlight %" "$BACKLIGHT")
+fi
+
+# ddcutil needs read/write on /dev/i2c-* (root or the i2c group); fall back to sudo
+ddc=(ddcutil)
+if (( EUID != 0 )) && ! [[ -w /dev/i2c-0 ]]; then
+  ddc=(sudo ddcutil)
+fi
+
+# brightnessctl needs write on /sys/class/backlight/*/brightness (root or the video group)
+bl=(brightnessctl)
+if (( EUID != 0 )) && ! [[ -w $(echo /sys/class/backlight/*/brightness | cut -d' ' -f1) ]]; then
+  bl=(sudo brightnessctl)
+fi
+
+"${ddc[@]}" setvcp 12 "$CONTRAST"
+"${ddc[@]}" setvcp 10 "$BRIGHTNESS"
+"${bl[@]}" set "$BACKLIGHT%" >/dev/null
+
+echo "contrast=$CONTRAST brightness=$BRIGHTNESS backlight=$BACKLIGHT%"
