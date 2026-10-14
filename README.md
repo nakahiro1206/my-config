@@ -7,3 +7,4 @@
 - herdr
 - lazygit
 - git-delta
+- tree-sitter cli
